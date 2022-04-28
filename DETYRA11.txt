@@ -1,0 +1,419 @@
+USHTRIMI1
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace shahirConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+          
+            Console.WriteLine("Emri");
+            Console.WriteLine("Mbiemri");
+            Console.WriteLine("Mosha");
+            Console.WriteLine("Vendlindja");
+            Console.WriteLine("Profesioni");
+            
+
+
+            Console.ReadLine();
+        }
+    }
+}
+
+
+USHTRIMI 2
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ushtrimi2ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Vendos 2 numra");
+            Console.WriteLine();
+            Console.Write("Nr1: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Nr2: ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            if (a > b)
+            {
+                Console.WriteLine("Mbetja eshte: " + (a % b));
+                Console.ReadLine();
+            }
+
+            else
+            {
+                Console.WriteLine("Numri i dyte me i madh  se numri i pare");
+                
+            }
+        }
+    }
+}
+
+
+
+
+USHTRIM 3
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            double nr1, nr2, nr3, nr4, nr5;
+            Console.WriteLine("nr1  ");
+            nr1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("nr2: ");
+            nr2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("nr3:" );
+            nr3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("nr4: ");
+            nr4 = Convert.ToDouble (Console.ReadLine());
+            Console.WriteLine("nr5: ");
+            nr5 = Convert.ToDouble(Console.ReadLine());
+            double shuma = nr1 + nr2 + nr3 + nr4 + nr5;
+            double mesatare = (nr1 + nr2 + nr3 + nr4 + nr5) / 5;
+            Console.WriteLine("shumaa eshte :  " + shuma + "\nmesatarja eshte :" + mesatare);
+            Console.ReadLine();
+          }
+     }
+}
+
+
+Ushtrimi4
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _2ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+            
+        {
+            
+
+            Console.WriteLine (-10 + ( 7 * 5 ));
+            Console.WriteLine ( ( 25 + 4 ) % 9 );
+            Console.WriteLine (10.0 + (3.0  * 4.0  / 9.0 ));
+            Console.WriteLine (1.0 + (23.0 / 3.0 * 2.0) - ( 7.0 % 3.0 ) );
+                
+               
+            Console.ReadLine();
+
+        }
+    }
+}
+
+
+
+5A
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a, b;
+            Console.Write("a=");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("b=");
+            b = Convert.ToDouble(Console.ReadLine());
+
+            double Perimetri = 2 * (a + b);
+            double Siperfaqja = a * b;
+            Console.WriteLine("Perimetri eshte:" + Perimetri + "\nsiperfaqja eshte:" + Siperfaqja);
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+    }
+}
+
+
+USHTRIMI 5B
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a,b,h,c;
+            Console.Write("a=");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("b=");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.Write("h=");
+            h = Convert.ToDouble(Console.ReadLine());
+            Console.Write("c=");
+            c = Convert.ToDouble(Console.ReadLine());
+
+            double Perimetri = a + b + c ;
+            double Siperfaqja = b * h /2;
+            Console.WriteLine("Perimetri eshte:" + Perimetri + "\nsiperfaqja eshte:" + Siperfaqja);
+            Console.ReadLine();
+         }
+     }
+}
+
+USHTRIMI 5C
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const double pi = 3.14;
+            double rrezja;
+            Console.Write("rrezja eshte:");
+            rrezja = Convert.ToDouble(Console.ReadLine());
+            double Perimetri = 2 * pi * rrezja;
+            double Siperfaqja = pi * rrezja * rrezja;
+            Console.WriteLine("Perimetri eshte:" + Perimetri + "\nsiperfaqja eshte:" + Siperfaqja);
+            Console.ReadLine();
+
+        }
+    }
+}
+
+USHTRIMI5D
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a, b, h, c, d;
+            Console.Write("a=");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("b=");
+            b = Convert.ToDouble(Console.ReadLine());
+            Console.Write("h=");
+            h = Convert.ToDouble(Console.ReadLine());
+            Console.Write("c=");
+            c = Convert.ToDouble(Console.ReadLine());
+            Console.Write("d=");
+            d = Convert.ToDouble(Console.ReadLine());
+
+            double Perimetri = a + b + c +d ;
+            double Siperfaqja = (a + b )/2 * h ;
+            Console.WriteLine("Perimetri eshte:" + Perimetri + "\nsiperfaqja eshte:" + Siperfaqja);
+           
+            Console.ReadLine();
+        }
+    }
+}
+
+
+USHTRIMI 6A
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+          double dollar, nr2 = 110.12;
+            
+            Console.Write("vlera ne lek eshte:");
+            dollar = Convert.ToDouble  (Console.ReadLine());
+            double shkembimi1 = dollar / nr2 ;
+            
+            Console.WriteLine("Vlera ne dollar eshte:" + shkembimi1  + "\nVlera ne euro eshte:");
+            Console.ReadLine();
+        }
+    }
+}
+
+
+USHTRIMI 6B
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+          double euro , nr2 = 121.3;
+            
+            Console.Write("vlera ne lek eshte:");
+            euro  = Convert.ToDouble  (Console.ReadLine());
+            double shkembimi1 = euro  / nr2 ;
+            
+            Console.WriteLine("Vlera ne euro eshte:" + shkembimi1  );
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+ushtrimi 7
+
+using System;
+namespace Lectures
+{
+    class HelloWorld
+    {
+        static void Main(string[] args)
+        {
+            string titulli, autori;
+            double cmimi;
+            Console.WriteLine("libri i pare: ");
+            Console.Write("titulli: ");
+            titulli  = Console.ReadLine();
+            Console.Write("autori: ");
+            autori  = Console.ReadLine();
+            Console.Write("cmimi: ");
+            cmimi = Convert.ToDouble (Console.ReadLine());
+            Console.WriteLine("libri i dyte: ");
+            Console.Write("titulli:   ");
+            titulli = Console.ReadLine();
+            Console.Write("autori:   ");
+            autori = Console.ReadLine();
+            Console.Write("cmimi:  ");
+            cmimi = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("libri i trete: ");
+            Console.Write("titulli:  ");
+            titulli = Console.ReadLine();
+            Console.Write("autori:  ");
+            autori = Console.ReadLine();
+            Console.Write("cmimi:   ");
+            cmimi = Convert.ToDouble(Console.ReadLine());
+
+
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+USHTRIMI 8
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ushtrimi2ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sasia e librave qe duam te blejme");
+            double  sasia = Convert.ToDouble (Console.ReadLine());
+            Console.WriteLine("cmimi qe paguam");
+            double cmimi = Convert.ToDouble (Console.ReadLine());
+            Console.WriteLine("Sa eshte kusuri?");
+            double kusuri = Convert.ToDouble (Console.ReadLine());
+            Console.WriteLine("Ne paguam " + " " + cmimi + " " + "dhe morem si kusur" + " " + kusuri);
+            Console.ReadLine();
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
